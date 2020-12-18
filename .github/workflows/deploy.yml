@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment: 
-      name: develop
+      name: staging
       url: 'ts-api-deploy-heroku.herokuapp.com'
     steps:
       - name: Checkout repository
